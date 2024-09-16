@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-screen h-screen flex justify-center content-center py-10 pt-20 text-zinc-200 bg-zinc-900;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    @apply font-sans;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
